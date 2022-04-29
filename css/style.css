@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../ofice.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: serif;
+}
+
+.big {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(7, 7, 255, 0.5);
+}
+
+.content{
+    background-color: white;
+    width: 35rem;
+    height: 17rem;
+    margin-left: 34%;
+    margin-top: 18%;
+}
+
+.btn{
+    border: none;
+    background:none;
+    margin-left: 88%;
+    cursor: pointer;
+}
+
+.btn ion-icon{
+  font-size: 60px;
+  color:red;
+}
+
+.text{
+    font-size: 50px;
+    margin-left: 22%;
+    margin-top: 7%;
+}
+
+.project {
+  background-color: white;
+  width: 35rem;
+  height: 17rem;
+}
+
+.text2 {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  font-size: 65px;
+}
+
+.btn2 {
+  background-color: deepskyblue;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 13rem;
+  margin-top: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn2:hover{
+    border:2px solid deepskyblue;
+    background: none;
+    color: deepskyblue;
+}
